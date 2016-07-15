@@ -1405,3 +1405,8 @@ img {
 #wix a img {
 	width: 100%;
 }
+
+#navLinks {
+    float: right;
+    padding: 5px;
+}
