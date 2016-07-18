@@ -13,9 +13,9 @@ $(document).ready(function(){
             timeout: 1000,
             success: function(data) {
                 $("#serverDate").html(data);
-                window.setTimeout(update, 1000);
+                window.setTimeout(updateTime, 1000);
             }
         });
     }
-    update();
+    updateTime();
 });
